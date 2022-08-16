@@ -1,0 +1,116 @@
+body {
+  background-color: #F0F0F0;
+  font-size: 14px;
+}
+
+.btn {
+  border-radius: 8px;
+  border-style: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  background: #208a45;
+  padding: 10px 60px 10px 60px;
+  text-decoration: none;
+}
+
+.cart {
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background: #215737;
+  text-decoration: none;
+}
+
+/* .brand {
+  width: 15%;
+ 
+} */
+
+.main-container {
+
+background-color: #F3EAE3;
+margin: 300px 300px;
+/* padding-top: 300px;
+padding-bottom: 300px; */
+
+}
+
+.container {
+  background-color: white ;
+  height: 500px;
+  width: 700px;
+  margin: 700px auto;
+  border-radius: 8px;
+  
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  width: 15%;
+  clear: right;
+}
+
+h2 {
+  font-family: 'Fraunces', serif;
+  color: #215737;
+  font-size: 2.5rem;
+}
+
+img {
+  position: relative;
+  height: 500px;
+  width: 50%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  float: left;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.8em;
+  color: hsl(228, 12%, 48%);
+}
+
+.specification {
+  text-align: center;
+}
+
+/* .button.single_add_to_cart_button:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  float: left;
+  content: "\f07a";
+  font-weight: 400;
+  margin-right: 0.5em;
+} */
+
+.specification {
+  text-align: left;
+  position: absolute;
+  margin-left: 400px;
+}
+
+.desktop-img {
+  padding-right: 30px;
+}
+
+.spec {
+  width: 30%;
+}
+
+.price {
+  display: inline;
+}
+
+span {
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  margin-left: 5px;
+  
+}
